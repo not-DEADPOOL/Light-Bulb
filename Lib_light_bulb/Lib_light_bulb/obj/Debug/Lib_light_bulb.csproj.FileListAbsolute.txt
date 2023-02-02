@@ -1,0 +1,5 @@
+C:\Users\apilati\source\repos\Lib_light_bulb\Lib_light_bulb\bin\Debug\Lib_light_bulb.dll
+C:\Users\apilati\source\repos\Lib_light_bulb\Lib_light_bulb\bin\Debug\Lib_light_bulb.pdb
+C:\Users\apilati\source\repos\Lib_light_bulb\Lib_light_bulb\obj\Debug\Lib_light_bulb.csprojAssemblyReference.cache
+C:\Users\apilati\source\repos\Lib_light_bulb\Lib_light_bulb\obj\Debug\Lib_light_bulb.dll
+C:\Users\apilati\source\repos\Lib_light_bulb\Lib_light_bulb\obj\Debug\Lib_light_bulb.pdb

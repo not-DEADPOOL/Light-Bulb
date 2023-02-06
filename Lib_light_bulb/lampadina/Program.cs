@@ -10,10 +10,11 @@ namespace lampadina
     {
         static void Main(string[] args)
         {
-            Lampadina l = new Lampadina();
-            l.Spegni();
-            Console.WriteLine(l);
-            Console.ReadKey(true);
+            LampadinaRegolabile ll = new LampadinaRegolabile();
+            ll.Accendi();
+            ll.SetPower(100);
+            Console.WriteLine(ll);
+            Console.ReadKey();
         }
     }
 }

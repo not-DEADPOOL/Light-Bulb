@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +7,7 @@ using System.Threading;
 
 namespace Lib_light_bulb
 {
-    public class LampadinaRegolabile :Lampadina
+    public class LampadinaRegolabile : Lampadina
     {
         int _pot;
         public int potenza
@@ -29,12 +29,24 @@ namespace Lib_light_bulb
                 pot = n;
             }
         }
+    
         public override string ToString()
         {
-            string support;
-            for (int i = 0; i < length; i++)
+            int c = potenza / 10;
+            string[] support = {@" ..........", @"       .......::::::.......", @"    .......:::======:::.......",
+                                @"  .......::===========::........", @" ......::===####@@####===::......",@"......::===####@@@@####===::......",
+                                @".....::===####@@@@@@####===::.....",@".....::===#####@@@@#####===::.....",@" .....::===#####@@#####===::.....",
+                                @"  .....::====########====::.....",@"   .....::=====####=====::.....",@"     ....::============::....",
+                                @"       ...::==========::...",@"         ..::========::.."};
+            for (int i = 0; i < support.Length; i++)
             {
-
+                for (int k = 1; k < support[i].Length; k++)
+                {
+                    if (support[i][k-1]=='.')
+                    {
+                        
+                    }
+                }
             }
         }
         //            ..........
@@ -56,5 +68,6 @@ namespace Lib_light_bulb
         //           <__________>
         //           <__________>
         //            \________/
+        
     }
 }

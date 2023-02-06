@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +10,10 @@ namespace lampadina
     {
         static void Main(string[] args)
         {
+            Lampadina l = new Lampadina();
+            l.Spegni();
+            Console.WriteLine(l);
+            Console.ReadKey(true);
         }
     }
 }

@@ -12,42 +12,53 @@ namespace Lib_light_bulb
         int _pot;
         public int potenza
         {
-            get
-            {
-                return _pot;
-            }
-            set
-            {
-                _pot = value >= 100 ? 100 : (value < 1 ? 1 : value);
-            }
+            get{return _pot;}
+            set{_pot = value >= 100 ? 100 : (value < 1 ? 1 : value);}
         }
 
-        public void SetPower(int n)
+        public void SetPower(int n){if (acceso_spento)pot = n;}
+        protected string Getstampa()
         {
-            if (acceso_spento)
-            {
-                pot = n;
-            }
-        }
-    
-        public override string ToString()
-        {
+            string support = "", stampa = "";
             int c = potenza / 10;
-            string[] support = {@" ..........", @"       .......::::::.......", @"    .......:::======:::.......",
+            for (int i = 0; i < c; i++)
+            {
+                support += ".";
+            }
+            string[] llampa = {@"       .......::::::.......", @"    .......:::======:::.......",
                                 @"  .......::===========::........", @" ......::===####@@####===::......",@"......::===####@@@@####===::......",
                                 @".....::===####@@@@@@####===::.....",@".....::===#####@@@@#####===::.....",@" .....::===#####@@#####===::.....",
                                 @"  .....::====########====::.....",@"   .....::=====####=====::.....",@"     ....::============::....",
                                 @"       ...::==========::...",@"         ..::========::.."};
-            for (int i = 0; i < support.Length; i++)
+            for (int i = 0; i < llampa.Length; i++)
             {
-                for (int k = 1; k < support[i].Length; k++)
+                for (int k = 0; k < llampa[i].Length; k++)
                 {
-                    if (support[i][k-1]=='.')
+                    if (llampa[i][k+1]=='.')
                     {
-                        
+                        llampa[i] = llampa[i].Insert(k, support);
+                        break;
+                    }
+                }
+                for (int k = llampa[i].Length-1; k > 0; k--)
+                {
+                    if (llampa[i][k - 1] == '.')
+                    {
+                        llampa[i] = llampa[i].Insert(k, support);
+                        break;
                     }
                 }
             }
+            for (int i = 0; i < llampa.Length; i++)
+            {
+                stampa += llampa[i] + "\n"; 
+            }
+            return stampa + @"           |__________|" + "\n" + @"           <__________>" + "\n" + @"           <__________>" + "\n" + @"           <__________>" + "\n" + @"            \________/" + "\n";
+
+        }
+        public override string ToString()
+        {
+            return Getstampa();
         }
         //            ..........
         //       .......::::::.......

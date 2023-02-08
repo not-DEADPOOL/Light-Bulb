@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lampadina", "Lampadina\Lampadina.csproj", "{AE624781-5A7D-47AE-B081-C5964043BBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lib_lampadina", "Lib_lampadina\Lib_lampadina.csproj", "{750BAE66-C008-4D5E-9E41-DEC36E22E387}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE624781-5A7D-47AE-B081-C5964043BBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE624781-5A7D-47AE-B081-C5964043BBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE624781-5A7D-47AE-B081-C5964043BBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE624781-5A7D-47AE-B081-C5964043BBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750BAE66-C008-4D5E-9E41-DEC36E22E387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750BAE66-C008-4D5E-9E41-DEC36E22E387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750BAE66-C008-4D5E-9E41-DEC36E22E387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750BAE66-C008-4D5E-9E41-DEC36E22E387}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A3FC94E-BA9A-417A-A866-68857DD3BD8D}
+	EndGlobalSection
+EndGlobal

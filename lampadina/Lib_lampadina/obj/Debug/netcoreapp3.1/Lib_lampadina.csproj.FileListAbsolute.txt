@@ -1,0 +1,10 @@
+C:\Users\Utente\source\repos\Lampadina\Lib_lampadina\bin\Debug\netcoreapp3.1\Lib_lampadina.deps.json
+C:\Users\Utente\source\repos\Lampadina\Lib_lampadina\bin\Debug\netcoreapp3.1\Lib_lampadina.dll
+C:\Users\Utente\source\repos\Lampadina\Lib_lampadina\bin\Debug\netcoreapp3.1\Lib_lampadina.pdb
+C:\Users\Utente\source\repos\Lampadina\Lib_lampadina\obj\Debug\netcoreapp3.1\Lib_lampadina.csproj.AssemblyReference.cache
+C:\Users\Utente\source\repos\Lampadina\Lib_lampadina\obj\Debug\netcoreapp3.1\Lib_lampadina.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utente\source\repos\Lampadina\Lib_lampadina\obj\Debug\netcoreapp3.1\Lib_lampadina.AssemblyInfoInputs.cache
+C:\Users\Utente\source\repos\Lampadina\Lib_lampadina\obj\Debug\netcoreapp3.1\Lib_lampadina.AssemblyInfo.cs
+C:\Users\Utente\source\repos\Lampadina\Lib_lampadina\obj\Debug\netcoreapp3.1\Lib_lampadina.csproj.CoreCompileInputs.cache
+C:\Users\Utente\source\repos\Lampadina\Lib_lampadina\obj\Debug\netcoreapp3.1\Lib_lampadina.dll
+C:\Users\Utente\source\repos\Lampadina\Lib_lampadina\obj\Debug\netcoreapp3.1\Lib_lampadina.pdb

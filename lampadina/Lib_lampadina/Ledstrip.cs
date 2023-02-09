@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Lib_light_bulb;
@@ -7,21 +7,21 @@ namespace Lib_light_bulb
 {
     public class Ledstrip
     {
-        public List<Lampadina> lampadine { get; private set; }
+        public List<Lampadina> lampadine = new List<Lampadina>();
         public Ledstrip()
         {
-            List<Lampadina> lampadine = new List<Lampadina>();
+            //List<Lampadina> lampadine ;
         }
         public void AccendiNum(int n)
         {
             lampadine[n - 1].Accendi();
         }
         
-        public void Attacca(Lampadina? l)
+        public void Attacca(Lampadina l)
         {
             lampadine.Add(l);
         }
-        public void Stacca(Lampadina? l)
+        public void Stacca(Lampadina l)
         {
             if (lampadine.Contains(l))
                 lampadine.Remove(l);
